@@ -1,2 +1,2 @@
 # arp-expert
-LUA script to analyzes ARP frames for security, troubleshooting and performance analysis
+LUA script to analyze ARP frames for security, troubleshooting and performance analysis
