@@ -61,7 +61,6 @@ for k,v in pairs (arp) do
 
 	else
 		io.write(arp[k][arp_mac][arp_src_hw_mac])
-		end
 	end
 
 io.write("\n") --- linespace after row. This can also occur as part of one large write operation.
