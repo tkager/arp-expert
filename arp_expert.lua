@@ -60,8 +60,7 @@ for k,v in pairs (arp) do
 	if (arp[k][arp_mac]) == nil then -- if there are no mac entries we have requests without responses.
 
 	else
-		for x,y in pairs (arp[k][arp_mac]) do
-			io.write(tostring(y)," ")
+		io.write(arp[k][arp_mac][arp_src_hw_mac])
 		end
 	end
 
